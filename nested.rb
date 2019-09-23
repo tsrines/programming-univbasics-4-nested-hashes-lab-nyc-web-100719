@@ -91,6 +91,8 @@ def unshift
         }
      }
 programmer_hash.unshift(adding_matz)
+programmer_hash.pop
+programmer_hash
     
 end
 
