@@ -65,7 +65,14 @@ end
 # add the following information to the top level of programmer_hash
 
 
-
+def adding_matz  
+  matz_object = {
+  :yukihiro_matsumoto => {
+    :known_for => "Ruby",
+    :languages => ["LISP", "C"]
+  }
+}
+end
 
 def unshift
 	programmer_hash = 
@@ -83,9 +90,7 @@ def unshift
           :languages => ["C"]
         }
      }
-programmer_hash.unshift(adding_matz)
-programmer_hash.shift
-programmer_hash
+
     
 end
 
