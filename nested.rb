@@ -61,18 +61,20 @@ def dennis_ritchies_language
 
 end
 
-def adding_matz = {
+def adding_matz  
+  matz_object = {
   :yukihiro_matsumoto => {
     :known_for => "Ruby",
     :languages => ["LISP", "C"]
   }
 }
+end
 # add the following information to the top level of programmer_hash
 
 
 
 
-
+def unshift
 	programmer_hash = 
  		{
         :grace_hopper => {
